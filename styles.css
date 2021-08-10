@@ -17,7 +17,7 @@ html{
 
 .navbrand-style{
     font-family: 'Inter', sans-serif;
-    color: #010038 !important;
+    color: #394FE1 !important;
     font-weight: 600;
 }
 
@@ -83,8 +83,14 @@ html{
 #about-section{
     padding-top: 80px;
     padding-bottom: 80px;
-    background-color: #EFF5FF;
+    background-color: #fff;
 }
+
+.about-container{
+    background-color: #EFF5FF;
+    border-radius: 15px;
+    padding: 6%;
+} 
 
 #myimg{
     width: 70%;
@@ -168,19 +174,23 @@ html{
 
 #github{
     text-align: center;
+    margin-top: 10px;
 }
 #twitter{
     text-align: center;
+    margin-top: 10px;
 }
 #linkedin{
     text-align: center;
+    margin-top: 10px;
 }
 #instagram{
     text-align: center;
+    margin-top: 10px;
 }
 
 .social{
-    margin-top: 5%;
+    margin-top: 4%;
 }
 
 .contact{
@@ -218,11 +228,55 @@ html{
 
 
 #copyright-section{
-    padding-top: 1%;
+    padding-top: 2%;
     padding-bottom: 0.3%;
     background-color: #15104B;
     text-align: center;
     vertical-align: middle;
+}
+
+#copyright-container{
+    padding: 0 !important;
+}
+
+.copyright-brand{
+    text-align: left !important;
+    font-family: 'Inter', sans-serif;
+    color: #fff !important;
+    font-size: 120%;
+    font-weight: 500 !important;
+}
+
+.copyright{
+    text-align: right !important;
+}
+
+#copyright-section a:link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #7F88A9 !important;
+    text-decoration: none;
+}
+
+#copyright-section a:visited {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #7F88A9 !important;
+    text-decoration: none;
+}
+
+#copyright-section a:hover {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+#copyright-section a:active {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #fff !important;
+    text-decoration: none;
 }
 
 h1{
@@ -257,6 +311,16 @@ p{
 }
 
 @media screen and (max-width: 600px){
-
-
+    .mailbutton-style{
+        padding: 2% 3% 2% 3%;
+    }
+    #copyright-section{
+        padding-top: 4%;
+    }
+    .copyright-brand{
+        text-align: center !important;
+    }
+    .copyright{
+        text-align: center !important;
+    }
 }
