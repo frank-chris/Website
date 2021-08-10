@@ -1,0 +1,262 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #EFF5FF;
+}
+
+html{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-style{
+    background-color: #fff;
+    padding: 20px;
+    border-color: #FFF #FFF #FFF #FFF !important;
+}
+
+.navbrand-style{
+    font-family: 'Inter', sans-serif;
+    color: #010038 !important;
+    font-weight: 600;
+}
+
+.navitem-style{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #7F88A9 !important;
+}
+
+.navitem-style:hover{
+    color: #394FE1 !important;
+}
+
+.navitem-style:active{
+    color: #394FE1 !important;
+}
+
+.ctabutton-style{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 90%;
+    background-color: #394FE1;
+    border-color: #394FE1;
+    border-radius: 10px;
+    padding: 2% 5% 2% 5%;
+}
+
+.ctabutton-style:hover{
+    color: #fff;
+    background-color: rgb(37, 61, 223);
+    border-color: rgb(37, 61, 223);
+}
+
+.ctabutton-style:focus{
+    color: #fff;
+    background-color: rgb(37, 61, 223);
+    border-color: rgb(37, 61, 223);
+}
+
+.ctabutton-style:active{
+    color: #fff;
+    background-color: rgb(37, 61, 223);
+    border-color: rgb(37, 61, 223);
+}
+
+#chris{
+    color: #394FE1 !important;
+}
+
+#hero-section{
+    margin-top: 80px;
+    background-color: #FFF;
+}
+
+#hero-name{
+    padding-top: 12%;
+}
+
+#hero-button{
+    margin-top: 2%;
+}
+
+#about-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #EFF5FF;
+}
+
+#myimg{
+    width: 70%;
+}
+
+#contact-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #FFF;
+}
+
+.social a:link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #7F88A9 !important;
+    text-decoration: none;
+}
+
+.social a:visited {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #7F88A9 !important;
+    text-decoration: none;
+}
+
+#github a:hover {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #000 !important;
+    text-decoration: none;
+}
+
+#github a:active {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #000 !important;
+    text-decoration: none;
+}
+
+#twitter a:hover {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #1DA1F2 !important;
+    text-decoration: none;
+}
+
+#twitter a:active {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #1DA1F2 !important;
+    text-decoration: none;
+}
+
+#linkedin a:hover {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #0A66C2 !important;
+    text-decoration: none;
+}
+
+#linkedin a:active {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #0A66C2 !important;
+    text-decoration: none;
+}
+
+#instagram a:hover {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #DF012B !important;
+    text-decoration: none;
+}
+
+#instagram a:active {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #DF012B !important;
+    text-decoration: none;
+}
+
+#github{
+    text-align: center;
+}
+#twitter{
+    text-align: center;
+}
+#linkedin{
+    text-align: center;
+}
+#instagram{
+    text-align: center;
+}
+
+.social{
+    margin-top: 5%;
+}
+
+.contact{
+    text-align: center;
+}
+
+.mailbutton-style{
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 90%;
+    margin-top: 2%;
+    background-color: #394FE1;
+    border-color: #394FE1;
+    border-radius: 10px;
+    padding: 1% 2% 1% 2%;
+}
+
+.mailbutton-style:hover{
+    color: #fff;
+    background-color: rgb(37, 61, 223);
+    border-color: rgb(37, 61, 223);
+}
+
+.mailbutton-style:focus{
+    color: #fff;
+    background-color: rgb(37, 61, 223);
+    border-color: rgb(37, 61, 223);
+}
+
+.mailbutton-style:active{
+    color: #fff;
+    background-color: rgb(37, 61, 223);
+    border-color: rgb(37, 61, 223);
+}
+
+
+#copyright-section{
+    padding-top: 1%;
+    padding-bottom: 0.3%;
+    background-color: #15104B;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 500%;
+    color: #010038 !important;
+}
+
+h1 span{
+    color: #394FE1 !important;
+}
+
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    color: #010038 !important;
+    font-weight: 600;
+    font-size: 300%;
+}
+
+h4{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #6e81ff !important;
+}
+
+p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #7F88A9 !important;
+}
+
+@media screen and (max-width: 600px){
+
+
+}
