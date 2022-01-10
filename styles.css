@@ -92,6 +92,18 @@ html{
     padding: 6%;
 } 
 
+#art-section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #fff;
+}
+
+.art-container{
+    background-color: #EFF5FF;
+    border-radius: 15px;
+    padding: 6%;
+} 
+
 #myimg{
     width: 70%;
 }
