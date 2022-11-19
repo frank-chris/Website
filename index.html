@@ -153,8 +153,8 @@
               </p>
               <p class="text-3xl">
                 (GPA: 9.77/10)&nbsp;
-                [<a class="link" href="https://drive.google.com/file/d/1FFerXoqPkMMUAYaacYZeSNO63TRx-yf5/view?usp=sharing">Transcript</a>]&nbsp;
-                [<a class="link" href="https://drive.google.com/file/d/1Bay7JRj4VkRfdUi0w1lKc4L-M7USA2TU/view?usp=sharing">Graduation Medals</a>]
+                [<a class="link text-primary" href="https://drive.google.com/file/d/1FFerXoqPkMMUAYaacYZeSNO63TRx-yf5/view?usp=sharing">Transcript</a>]&nbsp;
+                [<a class="link text-primary" href="https://drive.google.com/file/d/1Bay7JRj4VkRfdUi0w1lKc4L-M7USA2TU/view?usp=sharing">Graduation Medals</a>]
               </p>
             </div>
           </div>
@@ -172,6 +172,84 @@
               </p>
             </div>
         </div>
+
+        <!-- about -->
+        <div class="hero lg:py-16 lg:px-32 px-24 py-8 w-full">
+          <div class="flex-col w-full lg:flex-row">
+            <!-- <img src="assets/chris.jpg" class="w-5/6 lg:w-1/3 mt-20 lg:mt-2 rounded-lg shadow-xl">  -->
+            <div class="items-start w-full">
+              <h1 class="mb-5 text-5xl font-bold text-primary">
+                Experience
+              </h1>
+              <p class="font-semibold text-3xl mb-2">
+                Research Intern, California Institute of Technology <br> <span class="text-2xl font-light">May - July 2021</span>
+              </p>
+              <ul class="list-disc text-2xl w-full ml-6 mb-5">
+                <li>Developed machine learning models with TensorFlow to identify the species present in low-biomass metagenomic samples
+                and achieved a classification accuracy of around 81%.</li>
+              </ul>
+
+              <p class="font-semibold text-3xl mb-2">
+                Teaching Assistant, 
+                <a href="https://www.notion.so/ES242-Data-Structures-and-Algorithms-I-dc7fac5aa16343feaaff08c0322b4e83" 
+                  class="link text-primary">
+                  Data Structures and Algorithms-I</a>, 
+                  IIT Gandhinagar<br> <span class="text-2xl font-light">Aug - Dec 2020</span>
+              </p>
+              <ul class="list-disc text-2xl w-full ml-6 mb-5">
+                <li>Delivered guest lectures on C programming, linked lists, tree traversal, and coding problems.</li>
+                <li>Designed coding questions and tested solutions for course assignments and quizzes.</li>
+              </ul>
+
+              <p class="font-semibold text-3xl mb-2">
+                Research Intern, Indian Institute of Science, Bangalore <br> <span class="text-2xl font-light">May - June 2020</span>
+              </p>
+              <ul class="list-disc text-2xl w-full ml-6 mb-5">
+                <li>Worked on data visualization and parameters for a data-driven partial differential equation based model of COVID-19
+                  infections using Python, Numpy, Pandas and Plotly.</li>
+                <li>Developed a <a class="link text-primary" href="https://frank-chris.github.io/covid/">webpage</a> to display the results of the model using JavaScript, HTML, and CSS. The webpage included
+                  time-series plots using FusionCharts.js and choropleth maps using Leaflet.js.</li>
+              </ul>
+
+              <p class="font-semibold text-3xl mb-2">
+                Application Developer, InsIIT: An all-in-one app for IIT Gandhinagar students<br> <span class="text-2xl font-light">May - June 2020</span>
+              </p>
+              <ul class="list-disc text-2xl w-full ml-6 mb-5">
+                <li>Developed the <a class="link text-primary" href="https://play.google.com/store/apps/details?id=com.commonsware.android.signin">InsIIT App</a>,
+                   using Flutter, under Students' Summer Online Projects (SSOP) 2020 at IIT Gandhinagar.</li>
+                <li>Implemented the campus map feature using the Google Maps and Sheets APIs which enables users to search for, read
+                  about, and get directions to their desired location.</li>
+              </ul>
+
+              <p class="font-semibold text-3xl mb-2">
+                Co-inventor, FoodBuddy: An assistive dining device for the disabled, Invent@IITGN<br> <span class="text-2xl font-light">May - June 2019</span>
+              </p>
+              <ul class="list-disc text-2xl w-full ml-6 mb-5">
+                <li>Invented a voice-controlled robotic device that assists people with arm disabilities to eat independently.</li>
+                <li>Achieved more than 1000% cost reduction from existing solutions. Enhanced portability and user experience.</li>
+                <li id="publications">Filed provisional patent applications for the invention in India (IN201941027110) and USA (US62912080).</li>
+              </ul>
+              
+            </div>
+          </div>
+        </div>
+
+        <!-- about -->
+        <div class="hero lg:py-0 text-end lg:px-32 px-24 py-8">
+          <div>
+            <h1 class="mb-5 text-5xl font-bold text-primary text-right">
+              Publications
+            </h1>
+            <p class="font-semibold text-3xl mb-2 text-right">
+              SpiroMask: Measuring Lung Function Using Consumer-Grade Masks 
+            </p>
+            <p class="text-2xl mb-2 text-right">
+              Developed a system for estimating lung-health parameters by employing machine learning and audio sensors fitted in 
+              consumer-grade N95 and cloth masks with an error rate less than 5%. Accepted in <em>ACM Transactions on Computing for 
+              Healthcare</em> (<a class="link text-primary" href="https://doi.org/10.48550/arXiv.2201.09280">doi</a>).
+            </p>
+          </div>
+      </div>
 
         <!-- about -->
         <div class="hero lg:py-16 lg:px-32 px-24 py-8 w-full">
@@ -248,21 +326,41 @@
               <kbd class="kbd rounded-2xl mb-2">Computer Organization and Architecture</kbd>
               <kbd class="kbd rounded-2xl mb-2">Theory of Computation</kbd>
               <kbd class="kbd rounded-2xl mb-2">Probability and Random Processes</kbd>
-              <kbd class="kbd rounded-2xl mb-2">Modeling and Simulation of Complex Systems</kbd>
+              <kbd id="projects" class="kbd rounded-2xl mb-2">Modeling and Simulation of Complex Systems</kbd>
             </p>
           </div>
       </div>
 
+      <!-- about -->
+      <div class="hero lg:py-16 lg:px-32 px-24 py-8 w-full">
+        <div class="flex-col w-full lg:flex-row">
+          <!-- <img src="assets/chris.jpg" class="w-5/6 lg:w-1/3 mt-20 lg:mt-2 rounded-lg shadow-xl">  -->
+          <div class="items-start w-full">
+            <h1 class="mb-5 text-5xl font-bold text-primary">
+              Projects
+            </h1>
+            <p class="font-semibold text-3xl mb-2">
+              Research Intern, California Institute of Technology <br> <span class="text-2xl font-light">May - July 2021</span>
+            </p>
+            <ul class="list-disc text-2xl w-full ml-6 mb-5">
+              <li>Developed machine learning models with TensorFlow to identify the species present in low-biomass metagenomic samples
+              and achieved a classification accuracy of around 81%.</li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+
         <!-- contact -->
-        <div id="contact" class="hero bg-base-100 lg:py-16 lg:px-32 px-24 py-8">
-          <div class="flex-col hero-content lg:flex-row-reverse">
+        <div id="contact" class="hero bg-base-100 lg:py-12 lg:px-32 px-24 py-8">
+          <div class="flex-col hero-content pt-0 lg:flex-row-reverse">
             <img src="assets/contact.png" class="lg:w-2/5 mt-20 lg:mt-2"> 
             <div class="lg:mr-32">
               <h1 class="mb-5 text-5xl text-center font-bold">
                 Get In Touch
               </h1>
               <p class="mb-5 text-center text-lg">
-                <a href="mailto:chrisfrancischris@gmail.com" class="btn btn-ghost mt-5">Send me an email &nbsp;
+                <a href="mailto:chrisfrancischris@gmail.com" class="btn active:btn-primary btn-ghost mt-5">Send me an email &nbsp;
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 rotate-90" viewBox="0 0 20 20" fill="currentColor">
                     <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
                   </svg>
@@ -274,7 +372,7 @@
         
         <!-- footer -->
         <footer class="p-10 footer bg-base-200 text-base-content footer-center">
-            <div class="grid grid-flow-col gap-4 hover:text-primary-focus">
+            <div class="flex-row flex flex-wrap gap-4 hover:text-primary-focus justify-center">
                 <a class="font-semibold hover:text-primary-content" href="index.html">HOME</a> 
                 <a class="font-semibold hover:text-primary-content" href="#publications">PUBLICATIONS</a> 
                 <a class="font-semibold hover:text-primary-content" href="cv.html">CV</a> 
