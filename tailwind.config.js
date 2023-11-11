@@ -1,12 +1,12 @@
 module.exports = {
-  content: ["./*.{html,js}"],
+  content: ["./*.{html,js}", "./node_modules/tw-elements/dist/js/**/*.js"],
   theme: {
     fontFamily: {
       'sans': ['Inter var'],
     }
   },
   daisyui: {
-    themes: [
+    themes: [ "winter", "emerald", "dark", "light",
       {
         mytheme: {
           primary: "#E6790B",
@@ -31,5 +31,6 @@ module.exports = {
   },
   plugins: [
     require('daisyui'),
+    require('tw-elements/dist/plugin'),
   ],
 }
