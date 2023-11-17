@@ -5,9 +5,10 @@
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
         <link rel=icon href=assets/favicon.ico>
         <link href="built_styles.css" rel="stylesheet">
-        <script src="./node_modules/tw-elements/dist/js/index.min.js"></script>
+        <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.css" rel="stylesheet" /> -->
+        <script src="carousel.js"></script>
     </head>
-    <body>
+    <body onload = "startTimer()">
       <!-- navbar -->
         <div class="navbar mb-2 fixed w-full z-10 top-0 bg-base-100 text-base-content ">
             <div class="px-2 mx-2 navbar-start">
@@ -86,85 +87,22 @@
 
         <!-- hero -->
         <div class="hero min-h-screen bg-base-100 py-8 lg:py-0">
-            <div class="flex-col hero-content lg:flex-row-reverse">
-              <div id="carouselExampleCaptions" class="lg:w-1/2 carousel slide relative rounded-lg" data-bs-ride="carousel">
-                <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
-                </div>
-                <div class="carousel-inner relative w-full overflow-hidden">
-                  <div class="carousel-item active relative float-left w-full">
-                    <img
-                      src="assets/medals.jpg"
-                      class="block w-full"
-                      alt="..."
-                    />
-                    <div class="carousel-caption hidden md:block absolute text-center">
-                      <!-- <h5 class="text-xl"></h5> -->
-                      <p class="btn bg-neutral opacity-50 btn-ghost">Receiving medals at Convocation 2022 at IIT Gandhinagar</p>
-                    </div>
+            <div class="hero-content flex lg:flex-row-reverse flex-col">
+
+              <div class="carousel lg:w-1/2 rounded-lg">
+                <div class="carousel-item relative w-full">
+                  <img id='carousel-img' src="assets/medals.jpg" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <button type="button" onclick="displayPreviousImage()" 
+                            class="btn btn-active btn-ghost hover:bg-opacity-50 btn-square text-base-200">❮</button> 
+                    <button type="button" onclick="displayNextImage()" 
+                            class="btn btn-active btn-ghost hover:bg-opacity-50 btn-square text-base-200">❯</button>
                   </div>
-                  <div class="carousel-item relative float-left w-full">
-                    <img
-                      src="assets/deans.jpg"
-                      class="block w-full"
-                      alt="..."
-                    />
-                    <div class="carousel-caption hidden md:block absolute text-center">
-                      <!-- <h5 class="text-xl">Second slide label</h5> -->
-                      <p class="btn bg-neutral opacity-50 btn-ghost">Receiving Dean's List Award at IIT Gandhinagar</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item relative float-left w-full">
-                    <img
-                      src="assets/interiit1.jpg"
-                      class="block w-full"
-                      alt="..."
-                    />
-                    <div class="carousel-caption hidden md:block absolute text-center">
-                      <!-- <h5 class="text-xl">Third slide label</h5> -->
-                      <p class="btn bg-neutral opacity-50 btn-ghost">At Inter-IIT Cultural Meet 2018 (art and design team)</p>
-                    </div>
-                  </div>
-                </div>
-                <button
-                  class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
-                  type="button"
-                  data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide="prev"
-                >
-                  <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                  class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
-                  type="button"
-                  data-bs-target="#carouselExampleCaptions"
-                  data-bs-slide="next"
-                >
-                  <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div> 
-              <div class="lg:w-1/2 px-8 lg:px-0 lg:mr-12">
+                </div> 
+                
+              </div>
+              
+              <div class="lg:w-1/2 px-8 lg:px-0">
                 
                 <h1 class="mb-10 text-4xl lg:text-6xl font-bold">
                     Hi, I'm <span class="text-primary">Chris</span>  
@@ -342,6 +280,6 @@
               <p>Copyright © 2023 - Chris Francis</p>
             </div>
         </footer>
-
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.js"></script> -->
     </body>
 </html>
