@@ -24,3 +24,14 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #C2C4C7;
 }
+
+#cursor {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #38BDF8;
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: 9999;
+  }

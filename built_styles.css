@@ -791,13 +791,6 @@ html {
   padding: 0px;
 }
 
-.btn-circle {
-  height: 3rem;
-  width: 3rem;
-  border-radius: 9999px;
-  padding: 0px;
-}
-
 .btn.loading, .btn.loading:hover {
   pointer-events: none;
 }
@@ -1832,34 +1825,6 @@ html {
   padding: 0px;
 }
 
-.btn-circle:where(.btn-xs) {
-  height: 1.5rem;
-  width: 1.5rem;
-  border-radius: 9999px;
-  padding: 0px;
-}
-
-.btn-circle:where(.btn-sm) {
-  height: 2rem;
-  width: 2rem;
-  border-radius: 9999px;
-  padding: 0px;
-}
-
-.btn-circle:where(.btn-md) {
-  height: 3rem;
-  width: 3rem;
-  border-radius: 9999px;
-  padding: 0px;
-}
-
-.btn-circle:where(.btn-lg) {
-  height: 4rem;
-  width: 4rem;
-  border-radius: 9999px;
-  padding: 0px;
-}
-
 .menu-horizontal {
   display: inline-flex;
   flex-direction: row;
@@ -2158,18 +2123,6 @@ html {
   background-color: hsl(var(--b2, var(--b1)) / var(--tw-bg-opacity));
 }
 
-.bg-opacity-0 {
-  --tw-bg-opacity: 0;
-}
-
-.bg-opacity-50 {
-  --tw-bg-opacity: 0.5;
-}
-
-.bg-opacity-30 {
-  --tw-bg-opacity: 0.3;
-}
-
 .fill-current {
   fill: currentColor;
 }
@@ -2292,26 +2245,14 @@ html {
   color: hsl(var(--bc) / var(--tw-text-opacity));
 }
 
-.text-primary {
-  --tw-text-opacity: 1;
-  color: hsl(var(--p) / var(--tw-text-opacity));
-}
-
 .text-base-200 {
   --tw-text-opacity: 1;
   color: hsl(var(--b2, var(--b1)) / var(--tw-text-opacity));
 }
 
-.opacity-0 {
-  opacity: 0;
-}
-
-.opacity-70 {
-  opacity: 0.7;
-}
-
-.opacity-50 {
-  opacity: 0.5;
+.text-primary {
+  --tw-text-opacity: 1;
+  color: hsl(var(--p) / var(--tw-text-opacity));
 }
 
 .shadow {
@@ -2358,12 +2299,19 @@ html {
   background: #C2C4C7;
 }
 
-.hover\:bg-opacity-50:hover {
-  --tw-bg-opacity: 0.5;
+#cursor {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #38BDF8;
+  opacity: 0.3;
+  pointer-events: none;
+  z-index: 9999;
 }
 
-.hover\:bg-opacity-30:hover {
-  --tw-bg-opacity: 0.3;
+.hover\:bg-opacity-50:hover {
+  --tw-bg-opacity: 0.5;
 }
 
 .hover\:text-primary-focus:hover {
@@ -2447,12 +2395,6 @@ html {
 
 .drawer-toggle:focus-visible ~ .drawer-content .drawer-button.active\:btn-primary:active {
   outline: 2px solid hsl(var(--p));
-}
-
-@media (min-width: 768px) {
-  .md\:flex-col {
-    flex-direction: column;
-  }
 }
 
 @media (min-width: 1024px) {
